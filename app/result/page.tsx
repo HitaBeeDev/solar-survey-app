@@ -1,4 +1,5 @@
 "use client";
+
 import { JSX } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
