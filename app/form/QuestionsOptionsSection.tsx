@@ -1,3 +1,4 @@
+import { JSX } from "react";
 import ContactForm from "./ContactForm";
 
 interface Props {

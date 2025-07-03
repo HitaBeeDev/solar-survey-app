@@ -1,5 +1,5 @@
 "use client";
-
+import { JSX } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import solarPanelImage from "../assets/solar-panels.webp";

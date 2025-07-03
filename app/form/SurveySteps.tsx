@@ -1,4 +1,5 @@
 "use client";
+import { JSX } from "react";
 
 interface SurveyStepsProps {
   currentStep: number;

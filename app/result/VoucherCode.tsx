@@ -1,5 +1,5 @@
 "use client";
-
+import { JSX } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import { useState } from "react";
 

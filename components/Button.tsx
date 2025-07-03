@@ -1,5 +1,5 @@
 "use client";
-
+import { JSX } from "react";
 import { ReactNode } from "react";
 
 interface ButtonProps {

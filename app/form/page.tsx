@@ -1,5 +1,5 @@
 "use client";
-
+import { JSX } from "react";
 import { useState } from "react";
 import { surveyQuestions } from "../../data/surveyQuestions";
 import { useRouter } from "next/navigation";

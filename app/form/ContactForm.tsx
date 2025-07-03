@@ -1,3 +1,4 @@
+import { JSX } from "react";
 import ContactFormInputs from "../../components/ContactFormInputs";
 
 interface ContactFormProps {
