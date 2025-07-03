@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { surveyQuestions } from "./surveyQuestions";
+import { surveyQuestions } from "../../data/surveyQuestions";
 import { useRouter } from "next/navigation";
 import { IoAlertCircle } from "react-icons/io5";
-import Button from "../ui/Button";
+import Button from "../../components/Button";
 import SurveySteps from "./SurveySteps";
 import SurveyQuestionBlock from "./QuestionsOptionsSection";
 

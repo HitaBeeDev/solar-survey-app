@@ -3,8 +3,6 @@
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import solarPanelImage from "../assets/solar-panels.webp";
-import { IoCopyOutline } from "react-icons/io5";
-import { useState } from "react";
 import VoucherCode from "./VoucherCode";
 
 export default function ResultPage(): JSX.Element {
@@ -14,22 +12,12 @@ export default function ResultPage(): JSX.Element {
   const contacted = searchParams.get("contacted") === "true";
   const name: string | null = searchParams.get("name");
 
-  // copy to clipboard state
-  const [copied, setCopied] = useState<boolean>(false);
-
   // generating a random uppercase string for the voucher code
   const generateVoucherCode = (): string => {
     return Math.random().toString(36).substring(2, 8).toUpperCase();
   };
 
   const voucherCode = generateVoucherCode();
-
-  // copy to clipboard function
-  const handleCopy = () => {
-    navigator.clipboard.writeText(voucherCode);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000); // remove "Copied!" after 2 sec
-  };
 
   return (
     <div className="h-screen flex items-center justify-center bg-[#f9f9f9]">

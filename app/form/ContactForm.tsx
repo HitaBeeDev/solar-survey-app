@@ -1,4 +1,4 @@
-import ContactFormInputs from "../ui/ContactFormInputs";
+import ContactFormInputs from "../../components/ContactFormInputs";
 
 interface ContactFormProps {
   contact: {
@@ -16,10 +16,10 @@ export default function ContactForm({
   return (
     <div className="w-full bg-[#ff5c00]/10 p-3 rounded-[0.3rem] mt-3">
       <p className="text-[#292929] font-[500] text-[0.8rem]">
-        Want to Hear From Us?
+        Want a free assessment or simulation?
         <span className="text-[#525252] text-[0.7rem]">
           {" "}
-          Leave Your Contact Info (Optional)
+          Leave your contact info.
         </span>
       </p>
 

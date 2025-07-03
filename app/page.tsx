@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "./assets/logo-schoenergie.svg";
 import "./globals.css";
-import Button from "./ui/Button";
+import Button from "../components/Button";
 
 export default function Home(): JSX.Element {
   return (
